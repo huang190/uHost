@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "dev": "rimraf dist && parcel index/index.html packages/index.html"
+  },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.1.0"
+    "cz-conventional-changelog": "^3.1.0",
+    "rimraf": "^3.0.2"
   },
   "config": {
     "commitizen": {
